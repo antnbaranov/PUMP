@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/assets"
+    app:startDestination="@+id/AssetsFragment">
+
+    <fragment
+        android:id="@+id/AssetsFragment"
+        android:name="github.openpump.Assetsscreen.AssetsFragment"
+        android:label="@string/title_assets"
+        tools:layout="@layout/fragment_assets">
+
+<!--        ПЕРЕХОД-->
+<!--        <action-->
+<!--            android:id="@+id/action_title_to_about"-->
+<!--            app:destination="@id/aboutScreen"/>-->
+    </fragment>
+
+<!--    Следующий фрагмент на assets-->
+<!--    <fragment-->
+<!--        android:id="@+id/aboutScreen"-->
+<!--        android:name="github.openpump.homescreen.About"-->
+<!--        android:label="@string/title_about"-->
+<!--        tools:layout="@layout/fragment_about"/>-->
+</navigation>
